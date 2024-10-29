@@ -9,7 +9,7 @@ module.exports = {
         pacifico: ["Pacifico", 'cursive']
       },
       colors: {
-        "accent-white": "F1F8FF",
+        "accent-white": "#F1F8FF",
         "accent-orange": "#FEA116",
         "accent-black": "#0F172B"
       }
