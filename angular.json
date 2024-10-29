@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "restaurant": {
+    "Restaurant": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/restaurant",
+            "outputPath": "dist/Restaurant",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -64,10 +64,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "restaurant:build:production"
+              "buildTarget": "Restaurant:build:production"
             },
             "development": {
-              "buildTarget": "restaurant:build:development"
+              "buildTarget": "Restaurant:build:development"
             }
           },
           "defaultConfiguration": "development"
